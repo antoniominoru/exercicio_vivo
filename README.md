@@ -94,6 +94,3 @@ Use:
 
 - Para usar fazer o build e executar o compose: ``docker compose build && docker compose up``
 
-- Para limpar o cache dos builds: ``docker builder prune``
-
-
