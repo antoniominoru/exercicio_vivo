@@ -11,42 +11,6 @@ tipo C: 90% de cacau.
 ===============================
 <br>
 
-## Para acessar a api
-
-Para acessar a api faça requisição do tipo GET na URL final "/api/:id", sendo o ":id" a Letra referente o tipo do chocolate.
-
-**Exemplo:**
-
-Para verificar tipo A de chocolate envie requisição GET para "/api/A" e terá o retorno na porcetagem de cacau.
-
-> Se for requisição local use "http://localhost:3000/api/A"
-
-
-<br>
-
-
-OBS.
-- A API não é case sensitive por isso a requisição GET para "/api/A" é similar a requisição GET para "/api/a"
-- Caso seja eviado no GET algo diferente retorna "Error".
-
-<br>
-
-## Para acessar a a documentação
-
-Para acessar a api faça requisição do tipo GET na URL final "/docs"
-
-> Se for requisição local use "http://localhost:3000/docs"
-
-<br>
-
-
-## Outras rotas
-
-Caso tente outra rota API retorna erro 404.
-
-===============================
-<br>
-
 # Preparar ambiente
 
 ## Node.js
@@ -94,3 +58,38 @@ Use:
 
 - Para usar fazer o build e executar o compose: ``docker compose build && docker compose up``
 
+===============================
+<br>
+
+## Para acessar a api
+
+Para acessar a api faça requisição do tipo GET na URL final "/api/:id", sendo o ":id" a Letra referente o tipo do chocolate.
+
+**Exemplo:**
+
+Para verificar tipo A de chocolate envie requisição GET para "/api/A" e terá o retorno na porcetagem de cacau.
+
+> Se for requisição local use "http://localhost:3000/api/A"
+
+
+<br>
+
+
+OBS.
+- A API não é case sensitive por isso a requisição GET para "/api/A" é similar a requisição GET para "/api/a"
+- Caso seja eviado no GET algo diferente retorna "Error".
+
+<br>
+
+## Para acessar a a documentação
+
+Para acessar a api faça requisição do tipo GET na URL final "/docs"
+
+> Se for requisição local use "http://localhost:3000/docs"
+
+<br>
+
+
+## Outras rotas
+
+Caso tente outra rota API retorna erro 404.
