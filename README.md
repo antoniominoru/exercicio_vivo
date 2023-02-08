@@ -77,7 +77,7 @@ Para verificar tipo A de chocolate envie requisição GET para "/api/A" e terá 
 
 OBS.
 - A API não é case sensitive por isso a requisição GET para "/api/A" é similar a requisição GET para "/api/a"
-- Caso seja eviado no GET algo diferente retorna "Error".
+- Caso seja enviado requisição GET diferente do esperado retorna "Error".
 
 <br>
 
