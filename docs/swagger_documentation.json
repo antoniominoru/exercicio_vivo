@@ -1,0 +1,42 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "versão": "1.0.0",
+    "título": "Documentação da API",
+    "descrição": "Documentação de rotas para API que retorna porcentagem de chocolate por Tipo",
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/api/{id}": {
+      "get": {
+        "description": "Route for take the Percent of chocolate.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    }
+  },
+  "esquemas": [
+    "http"
+  ]
+}
