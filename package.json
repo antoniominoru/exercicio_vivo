@@ -1,8 +1,22 @@
 {
+  "name": "exercicio_vivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon app/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "node": "^19.6.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
   },
   "devDependencies": {
     "jest": "^29.4.2"
